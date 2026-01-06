@@ -2,8 +2,10 @@
  # Jenkins-Terraform_Create-EC2-module-ENV
 
 ## Create S3 Bucket & DynamoDB table manualy first
+```
 S3 Bucket Name - terraform-state-test-1234
 DynamoDB Table Name - terraform-locks
+```
  ---------------------------------------
 ## HOW TO RUN (PER ENV)
 ----------------------------------------
