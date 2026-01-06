@@ -24,7 +24,7 @@ terraform plan -var-file="env/test.tfvars"
 terraform apply -var-file="env/test.tfvars"
 terraform destroy -var-file="env/test.tfvars"
 ```
-# If lock is stuck (NOT recommended unless emergency)
+## If lock is stuck (NOT recommended unless emergency)
 ```
 terraform destroy -lock=false -var-file="env/test.tfvars"
 ```
