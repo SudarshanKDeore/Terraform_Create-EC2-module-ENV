@@ -1,0 +1,39 @@
+#################################
+# Terraform
+#################################
+.terraform/
+.git/
+**/.terraform/*
+
+# State files (NEVER commit)
+*.tfstate
+*.tfstate.*
+
+# Variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+crash.*.log
+
+#################################
+# OS / Editor
+#################################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+#################################
+# Logs / temp
+#################################
+*.log
+*.tmp
+
+# Terraform lock file (optional but usually ignored)
+.terraform.lock.hcl
+
+# SSH key files (Terraform generated}
+*.pem
+*.pub
